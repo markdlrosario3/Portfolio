@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>My Portfolio Website</title>
+</head>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Start of Nav section-->
+    <header>
+        <img class="logo" src="m.png" alt="logo" height="40" width="50">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificate">Certificates</a></li>
+                <li><a href="https://markdlrosario3.github.io/Project/project.html" target="_blank">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#contact"><button>Contact</button></a>
+    </header>
+    <!--End of Nav section-->
+
+    <!--Start of Home section-->
+    <section id="home">
+        <div class="home-grid">
+            <h1 class="headings" data-aos="fade-right" data-aos-duration="1000">I AM <br> MARK JHAIREN <br> B. DEL ROSARIO</h1>
+            <button class="btn" data-aos="zoom-in" data-aos-duration="1000"><a href="data.pdf" download="DELROSARIO_CV">Download CV</a></button>
+        </div>
+    </section>
+    <!--End of Home section-->
+
+    <!--Start of About section-->
+    <section id="about" class="section-padding-lg about bg-dark-pattern">
+        <div class="container">
+            <h2 class="text-lg">Who is <span class="text-primary">Mark?</span>
+            </h2>
+            <div class="about-grid">
+                <img src="course-capture.jpg" data-aos="zoom-out" data-aos-duration="10000">
+                <div class="card" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="card-body">
+                        <p class="about-content">Hi, my name is <span class="name">Mark Jhairen B. Del Rosario</span>, and I will be completing my bachelors degree in <span class="course">Information Technology</span> from <a href="https://www.ue.edu.ph/mla/" target="_blank"><span class="univ">University of the East</span></a> in March. I did an internship at MineDomain Inc which allowed me to put what I've learned in the classroom into use in practical sense.</p>
+                        <p class="about-content">My objective for today is to find a full-time job that will allow me to further develop my skills so that I can be a valuable asset to the organization to which I will apply.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of About section-->
+
+    <!--Start of Certificate section-->
+    <section id="certificate" class="section-padding-lg about bg-dark-pattern">
+    <h2 class="text-certi">Certificates</h2>
+       <div class="certificates">
+            <div class="cards" data-aos="fade-right">
+                <div class="card-image certi-1"></div>
+                <h2>Certificate of Completion</h2>
+            </div>
+
+            <div class="cards" data-aos="fade-left">
+                <div class="card-image certi-2"></div>
+                <h2>CompTia</h2>
+            </div>
+
+            <div class="cards" data-aos="fade-right">
+                <div class="card-image certi-3"></div>
+                <h2>MSME Caravan</h2>
+            </div>
+
+            <div class="cards" data-aos="fade-left">
+                <div class="card-image certi-4"></div>
+                <h2>TechEd</h2>
+            </div>
+
+            <div class="cards" data-aos="fade-right">
+                <div class="card-image certi-5"></div>
+                <h2>Introduction to Careers in Cybersecurity</h2>
+            </div>
+
+            <div class="cards" data-aos="fade-left">
+                <div class="card-image certi-6"></div>
+                <h2>Introduction to Kubernetes</h2>
+            </div>
+       </div> 
+    </section>
+    <!--End of Certificate section-->
+
+    <!--Start of Project section-->
+    <section id="project" class="section-padding-lg about bg-dark-pattern">
+        
+    </section>
+    <!--End of Project section-->
+
+    <!--Start of Contact section-->
+    <section id="contact" class="section-padding-lg about bg-dark-pattern">
+        <h1>Contact Me</h1>
+        <div class="border"></div>
+        <form action="https://formsubmit.co/delrosario.markjhairen@ue.edu.ph" method="POST" class="contact-form">
+            <input type="text" class="contact-form-text" placeholder="Enter your full name..." name="name" required>
+            <input type="email" class="contact-form-text" placeholder="juandelacruz@gmail.com" name="email" required>
+            <input type="text" class="contact-form-text" placeholder="+69********* or 09*********" pattern="\d*" minlength="11" maxlength="11" required name="number">
+            <textarea class="contact-form-text" placeholder="Your message" maxlength="150" name="message"></textarea>
+            <button type="submit" class="contact-form-btn">Send</button>
+   </form>
+    </section>
+    <!--End of Contact section-->
+
+    <!--Start of footer-->
+    <footer>
+        <div class="footer-content">
+            <h3>My Portfolio Website</h3>
+            <p>You can also get in touch with me through my personal accounts by clicking on the icons below.</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/markjhairen" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/markdlrosariooo/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mark-jhairen-del-rosario-893b92231/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-google"></i></a></li>
+                <li><a href="https://github.com/markdlrosario3" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 Portfolio Website. designed by <span> Mark Jhairen Del Rosario</span></p>
+        </div>
+    </footer>
+    <!--End of Footer-->
+</body>
+</html>
